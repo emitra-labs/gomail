@@ -11,7 +11,7 @@ import (
 )
 
 type Config struct {
-	URL string `env:"GOSMTP_URL, default=smtp://user:pass@localhost:1025"`
+	URL string `env:"GOMAIL_URL, default=smtp://user:pass@localhost:1025"`
 }
 
 type Mail struct {
